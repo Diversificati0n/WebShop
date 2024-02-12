@@ -275,3 +275,112 @@ body {
     }
 
 }
+
+@media (max-width: 320px) {
+
+    .center {
+        padding-left: calc(50% - 152px);
+        padding-right: calc(50% - 152px);
+        }
+
+    .top__img {
+        display: none;
+    }
+
+    .basket {
+        display: none;
+    }
+
+    .top__info {
+        width: 304px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 100px;
+    }
+
+    .top__text {
+        width: 310px;
+    }
+
+    .brand {
+        font-size: 30px;
+        width: 304px
+    }
+
+    .additional {
+        font-size: 20px;
+    }
+
+
+
+    .img__information {
+        width: 304px;
+    }
+    
+
+    .header {
+        background-color: #222222;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 320px;
+        padding-right: 50px;
+    }
+
+    .basket1 {
+        padding-right: 20px;
+    }
+
+    .what__is center {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        }
+
+    .range {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    .header__range {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .button {
+        display: flex;
+        margin-left: 80px;
+    }
+
+    .range {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    .banner {
+        width: 300px;
+    }
+
+    .banner_img {
+        width: 304px;
+    }
+
+    .banner_img2 {
+        width: 150px;
+    }
+
+    .banner__text {
+        width: 310px;
+    }
+}
