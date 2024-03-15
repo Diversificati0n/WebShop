@@ -8,8 +8,8 @@ body {
 }
 
 .center {
-  padding-left: calc(50% - $width / 2);
-  padding-right: calc(50% - $width / 2);
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
 }
 
 .header {
@@ -44,7 +44,7 @@ body {
 .top__info {
   display: flex;
   align-items: center;
-  background-color: #f1e4e6;
+  background-color: rgb(241, 228, 230);
   flex-direction: row;
   gap: 64px;
   margin-left: -226px;
@@ -78,7 +78,7 @@ body {
 }
 
 .fashion {
-  color: #f16d7f;
+  color: rgb(241, 109, 127);
 }
 
 .what__is {
@@ -99,7 +99,7 @@ body {
   position: absolute;
   width: 100%;
   text-align: center;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 400;
   font-size: 16px;
 }
@@ -136,7 +136,7 @@ body {
   margin-bottom: 6px;
   font-size: 30px;
   line-height: 36px;
-  color: #222222;
+  color: rgb(34, 34, 34);
 }
 
 .header__range__text {
@@ -144,7 +144,7 @@ body {
   font-weight: 400;
   line-height: 17px;
   margin-bottom: 50px;
-  color: #9f9f9f;
+  color: rgb(159, 159, 159);
 }
 
 .banners {
@@ -157,7 +157,7 @@ body {
 }
 
 .banner__description {
-  background-color: #f8f8f8;
+  background-color: rgb(248, 248, 248);
   padding-top: 26px;
   padding-bottom: 20px;
   padding-left: 16px;
@@ -168,7 +168,7 @@ body {
   font-size: 13px;
   font-weight: 400;
   line-height: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .banner_img2 {
@@ -181,7 +181,7 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 17px;
-  color: #5d5d5d;
+  color: rgb(93, 93, 93);
 }
 
 .price {
@@ -238,7 +238,7 @@ body {
 .footer__shop_title {
   margin-bottom: 16px;
   margin-top: 60px;
-  color: #fbfbfb;
+  color: rgb(251, 251, 251);
   font-weight: normal;
   font-size: 20px;
   font-weight: 400;
@@ -246,7 +246,7 @@ body {
 }
 
 .footer__shop_text {
-  color: #fbfbfb;
+  color: rgb(251, 251, 251);
   text-align: center;
   font-size: 14px;
   font-weight: 300;
@@ -287,7 +287,7 @@ body {
   margin-top: 150px;
   font-size: 24px;
   font-weight: 700;
-  color: #222224;
+  color: rgb(34, 34, 36);
 }
 
 .footer__form__img {
@@ -300,7 +300,7 @@ body {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
-  color: #222224;
+  color: rgb(34, 34, 36);
 }
 
 .wrapper_inpt {
@@ -319,7 +319,7 @@ body {
   height: 36px;
   background: #F16D7F;
   border-radius: 20px;
-  color: #e1e1e1;
+  color: rgb(225, 225, 225);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -361,7 +361,7 @@ input {
 }
 
 .footer__contacts__text {
-  color: #fbfbfb;
+  color: rgb(251, 251, 251);
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -381,4 +381,4 @@ input {
 
 .footer__img:active path:last-child {
   fill: #fff;
-}
+}/*# sourceMappingURL=style.css.map */
